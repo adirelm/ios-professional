@@ -13,6 +13,7 @@
 		BED04F5F2879BC030084407A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BED04F5D2879BC030084407A /* LaunchScreen.storyboard */; };
 		BED04F6C2879C0420084407A /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED04F6B2879C0420084407A /* LoginView.swift */; };
 		BED04F712879E9B40084407A /* OnboardingContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED04F702879E9B40084407A /* OnboardingContainerViewController.swift */; };
+		BED04F732879FB140084407A /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED04F722879FB140084407A /* OnboardingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		BED04F602879BC030084407A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BED04F6B2879C0420084407A /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		BED04F702879E9B40084407A /* OnboardingContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingContainerViewController.swift; sourceTree = "<group>"; };
+		BED04F722879FB140084407A /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			isa = PBXGroup;
 			children = (
 				BED04F702879E9B40084407A /* OnboardingContainerViewController.swift */,
+				BED04F722879FB140084407A /* OnboardingViewController.swift */,
 			);
 			path = Onboarding;
 			sourceTree = "<group>";
@@ -155,6 +158,7 @@
 			files = (
 				BED04F6C2879C0420084407A /* LoginView.swift in Sources */,
 				BED04F572879BC020084407A /* LoginViewController.swift in Sources */,
+				BED04F732879FB140084407A /* OnboardingViewController.swift in Sources */,
 				BED04F532879BC020084407A /* AppDelegate.swift in Sources */,
 				BED04F712879E9B40084407A /* OnboardingContainerViewController.swift in Sources */,
 			);
