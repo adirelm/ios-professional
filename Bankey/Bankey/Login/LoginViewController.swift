@@ -60,7 +60,6 @@ extension LoginViewController {
         errorMessageLabel.numberOfLines = 0
         errorMessageLabel.isHidden = true
     }
-    //
     
     private func layout() {
         view.addSubview(titleLabel)
