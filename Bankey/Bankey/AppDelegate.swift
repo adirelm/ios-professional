@@ -7,12 +7,15 @@
 
 import UIKit
 
+let appColor: UIColor = .systemTeal
+
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
     
     let loginViewController = LoginViewController()
     let onBoardingContainerViewController = OnboardingContainerViewController()
     let dummyViewController = DummyViewController()
+    let mainViewController = MainViewController()
     
     var window: UIWindow?
     
@@ -25,7 +28,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         onBoardingContainerViewController.delegate = self
         dummyViewController.logoutDelegate = self
         
-        setRootViewController(loginViewController)
+        setRootViewController(mainViewController)
         
         return true
     }
